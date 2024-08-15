@@ -1,0 +1,10 @@
+/node_modules
+/public/webpack
+.env.*.local
+/storage
+.env
+coverage
+.idea/*
+.DS_Store
+dump.rdb
+/builds

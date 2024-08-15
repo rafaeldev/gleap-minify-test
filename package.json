@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "esbuild": "^0.23.0",
+    "esbuild-rails": "^1.0.7",
+    "gleap": "^13.9.0"
+  },
+  "scripts": {
+    "start": "ENV=dev node esbuild.config.mjs && http-server ."
+  }
+}

@@ -23,7 +23,8 @@ esbuild.build({
   define: {
     "process.env": JSON.stringify({ 
       "INDEX": 10, 
-      "COLOR": process.env.COLOR ,
+      "COLOR": process.env.COLOR,
+      "GLEAP_API_KEY": process.env.GLEAP_API_KEY,
     }),
   },
 }).catch(() => process.exit(1));
